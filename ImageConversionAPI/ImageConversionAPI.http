@@ -1,0 +1,8 @@
+@ImageConversionAPI_HostAddress = http://localhost:5072
+
+GET {{ImageConversionAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
+POST {{ImageConversionAPI_HostAddress}}/convert?w=KURWA&q=70&f=PNG
+Accept: application/json

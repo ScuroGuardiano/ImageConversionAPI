@@ -1,0 +1,6 @@
+services:
+  api:
+    build: .
+    ports:
+      - "6400:8080"
+    restart: unless-stopped
